@@ -14,15 +14,19 @@
             "OroCRM\\Bundle": "src/"
          }
     },
-    "repositories": [
-       {
+    "repositories": {
+        "composer": {
             "type": "composer",
             "url": "http://packagist.orocrm.com"
+        },
+        "platform": {
+            "type": "vcs",
+            "url": "git@github.com:hugeval/platform.git"
         }
-    ],
+    },
     "require": {
-        "php": ">=5.4.9",
-        "oro/platform": "1.x-dev"
+        "php": ">=5.5",
+        "hugeval/platform": "1.x-dev"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
