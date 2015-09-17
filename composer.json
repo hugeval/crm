@@ -1,7 +1,7 @@
 {
-    "name": "oro/crm",
+    "name": "hugeval/crm",
     "description": "OroCRM",
-    "homepage": "https://github.com/orocrm/crm.git",
+    "homepage": "https://github.com/hugeval/crm.git",
     "license": "OSL-3.0",
     "authors": [
         {
